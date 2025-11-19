@@ -1,29 +1,60 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './css/Hero.css';
-import laptopGif from '../assets/laptop.gif';
+import './css/Skills.css';
 
-function Hero() {
+function Skills() {
   return (
-    <section className="hero">
-      <div className="container hero-content">
-        <div className="hero-text">
-          <p className="greeting"></p>
-          <h1>Bienvenido a mi Portafolio</h1>
-          <p className="description">
-            Mi nombre es Miranda Amaro Hernández
-          </p>
-          <div className="hero-buttons">
-            <Link to="/#contact" className="btn primary-btn">Contacto</Link>
-            <Link to="/proyectos" className="btn secondary-btn">Ver mis Proyectos</Link> 
-          </div>
-        </div>
-        <div className="hero-image">
-           <img src={laptopGif} alt="Developer" />
+    <section id="skills" className="skills-section">
+      <div className="container">
+        <h2>Habilidades</h2>
+        
+        <div className="skills-grid">
+            
+            <div className="skill-card card-blue">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Flutter</li>
+                </ul>
+                <span className="emoji">🎨</span>
+            </div>
+
+            <div className="skill-card card-pink">
+                <h3>Diseño</h3>
+                <ul>
+                    <li>Figma</li>
+                </ul>
+                <span className="emoji">✨</span>
+            </div>
+
+            <div className="skill-card card-purple">
+                <h3>Backend</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Java</li>
+                    <li>C / C++</li>
+                    <li>MySQL</li>
+                </ul>
+                <span className="emoji">🚀</span>
+            </div>
+
+             <div className="skill-card card-light">
+                <h3>Herramientas</h3>
+                <ul>
+                    <li>Git & Github</li>
+                    <li>VS Code</li>
+                    <li>Vite</li>
+                    <li>SceneBuilder</li>
+                    <li>IntelliJ IDEA</li>
+                </ul>
+                <span className="emoji">🛠️</span>
+            </div>
+
         </div>
       </div>
     </section>
   );
 }
 
-export default Hero;
+export default Skills;

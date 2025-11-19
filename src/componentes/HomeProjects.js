@@ -41,7 +41,6 @@ function HomeProjects() {
 
         <div className="home-projects-actions">
             <Link to="/proyectos" className="btn primary-btn">Ver Todos los Proyectos</Link>
-            
         </div>
 
       </div>

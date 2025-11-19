@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/About.css';
-
 import hobby from '../assets/Interfaz.jpg';
 import software from '../assets/software.jpg';
 import team from '../assets/team.png';
