@@ -13,7 +13,7 @@ import ProyectosPage from './paginas/ProyectosPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/nombre-de-tu-repo"> 
       <div className="App">
         <Navbar />
         <Routes>
