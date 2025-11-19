@@ -11,9 +11,11 @@ import Contact from './componentes/Contact';
 
 import ProyectosPage from './paginas/ProyectosPage';
 
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+
 function App() {
   return (
-    <Router basename="/nombre-de-tu-repo"> 
+    <Router> 
       <div className="App">
         <Navbar />
         <Routes>
