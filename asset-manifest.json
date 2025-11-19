@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.dfa720c8.css",
+    "main.js": "/Portafolio/static/js/main.d27e4569.js",
+    "static/js/453.383f3e8d.chunk.js": "/Portafolio/static/js/453.383f3e8d.chunk.js",
+    "static/media/laptop.gif": "/Portafolio/static/media/laptop.3f9e21331734c07ab7a2.gif",
+    "static/media/tarea1.png": "/Portafolio/static/media/tarea1.b6e32337e4a7f1d20f6b.png",
+    "static/media/escape.png": "/Portafolio/static/media/escape.f91257988fee5539cc9e.png",
+    "static/media/team.png": "/Portafolio/static/media/team.d9350d5fdd64be8b6a4c.png",
+    "static/media/tictac.png": "/Portafolio/static/media/tictac.84e0f75b0c2df53730bd.png",
+    "static/media/redsocial.png": "/Portafolio/static/media/redsocial.2c8c8a6a460b42e2c57c.png",
+    "static/media/Interfaz.jpg": "/Portafolio/static/media/Interfaz.646763eaba8a26992419.jpg",
+    "static/media/cheatsheet.png": "/Portafolio/static/media/cheatsheet.feb3d349bdcdc0d1c772.png",
+    "static/media/software.jpg": "/Portafolio/static/media/software.026cb081bd19c61867fc.jpg",
+    "static/media/problems.jpg": "/Portafolio/static/media/problems.cb23d8b32f4dd87685d7.jpg",
+    "index.html": "/Portafolio/index.html",
+    "main.dfa720c8.css.map": "/Portafolio/static/css/main.dfa720c8.css.map",
+    "main.d27e4569.js.map": "/Portafolio/static/js/main.d27e4569.js.map",
+    "453.383f3e8d.chunk.js.map": "/Portafolio/static/js/453.383f3e8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfa720c8.css",
+    "static/js/main.d27e4569.js"
+  ]
+}
