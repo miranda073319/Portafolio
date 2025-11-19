@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #eed5ed;
+  padding: 15px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: none;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.navbar-brand {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #9d8ad1;
+  text-decoration: none;
+}
+
+.navbar-links {
+  font-size: 1.2em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+
+.navbar-links a {
+  color: #9d8ad1;
+  font-weight: 500;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  color: plum;
+}
+
+.hire-me-btn {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hire-me-btn:hover {
+  background-color: var(--accent-hover);
+}
