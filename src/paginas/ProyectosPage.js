@@ -31,7 +31,7 @@ function ProyectosPage() {
       title: "Tarea 3: Cheat sheet",
       description: "Sitio web que contiene los elementos principales de HTML, indican su funcionalidad y ejemplos practicos",
       image: proyecto3,
-      websiteLink: "#https://miranda073319.github.io/Tarea3-Cheat-sheet/",
+      websiteLink: "https://miranda073319.github.io/Tarea3-Cheat-sheet/",
       githubLink: "https://github.com/miranda073319/Tarea3-Cheat-sheet"
     },
     {
