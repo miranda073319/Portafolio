@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './css/Contact.css';
 
 function Contact() {
@@ -14,11 +15,11 @@ function Contact() {
                     <span className="icon">🐱</span> GitHub
                 </a>
 
-                <a href="/" className="social-btn blog">
+                <Link to="/" className="social-btn blog">
                     <span className="icon">💻</span> Portafolio
-                </a>
+                </Link>
 
-                <a href="al073319@uacam.mx" className="social-btn email">
+                <a href="mailto:al073319@uacam.mx" className="social-btn email">
                     <span className="icon">📧</span> al073319@uacam.mx
                 </a>
             </div>

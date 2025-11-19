@@ -1,5 +1,5 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './css/Hero.css';
 import laptopGif from '../assets/laptop.gif';
 
@@ -14,8 +14,8 @@ function Hero() {
             Mi nombre es Miranda Amaro Hernández
           </p>
           <div className="hero-buttons">
-            <a href="#contact" className="btn primary-btn">Contacto</a>
-            <a href="#projects" className="btn secondary-btn">Ver mis Proyectos</a> 
+            <Link to="/#contact" className="btn primary-btn">Contacto</Link>
+            <Link to="/proyectos" className="btn secondary-btn">Ver mis Proyectos</Link> 
           </div>
         </div>
         <div className="hero-image">
